@@ -1,0 +1,662 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3b56a84b-c06c-4c22-a01a-903db63bf091")
+	(paper "A4")
+	(title_block
+		(title "Capstone Data Logger")
+		(date "2025-01-13")
+		(company "University of Alberta")
+		(comment 1 "Steven Sager")
+		(comment 2 "Damien Huskic")
+		(comment 3 "Tejash Ravish")
+		(comment 4 "Max Schatz")
+	)
+	(lib_symbols)
+	(junction
+		(at 165.1 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5645105a-3295-46f5-bf93-f2de938f0680")
+	)
+	(junction
+		(at 167.64 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4c09af-a420-4422-90cc-08fa46074e5a")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0875bfa9-ca71-4830-9910-390e20008bb7")
+	)
+	(wire
+		(pts
+			(xy 167.64 71.12) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32eb6a63-540a-4763-90c7-491fd739709d")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e4a84d-2123-48b7-8d36-38a6550ac2ec")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487b5448-ddd8-41e3-8a22-73256807261f")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52873597-6bdf-4e5e-8521-e843dd7857a1")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a28224-3280-4f0b-b65f-ff968c73823c")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66474b11-2643-4c7e-93a2-38dcfe151550")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a513b84-a3a1-4817-abe8-5463eb1c7e1e")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7f38dc-4023-4b35-a51f-ff8cb87e05e7")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952c25a8-4f70-4b29-8377-4b0ac0edb713")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980db4c8-a9ab-476a-8483-f4c374bdefaf")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a646a317-f223-4240-9f93-3914ed210bd9")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1104f6-8f35-41f6-8f1a-32812a900e4e")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 162.56 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b866c7ed-8824-472e-bb3b-8c8f408013dd")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c456299e-bd9f-45d8-955e-8fadabd588d5")
+	)
+	(wire
+		(pts
+			(xy 162.56 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9800b8c-b640-4cf3-93a8-9816d44d5f4d")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ad504f-f41a-4a2c-bd18-250d08d3fccf")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed80e751-69ad-404e-a683-f77985be74e2")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 177.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb96098-7ba3-4b26-910a-3c63ee124bdb")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff05d79a-cd43-4de3-bf4e-3fc4106ff8c6")
+	)
+	(sheet
+		(at 177.8 63.5)
+		(size 26.67 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0affded7-eae9-4d34-9de7-008cd2663c25")
+		(property "Sheetname" "RTC"
+			(at 177.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 177.8 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MFP" input
+			(at 177.8 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f6f3f46-28a7-4742-beae-15f0135d814f")
+		)
+		(pin "SCL" input
+			(at 177.8 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db04e6be-c3db-4928-8b0b-7a96bf6c87f1")
+		)
+		(pin "SDA" input
+			(at 177.8 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1038e586-ef81-4004-a6e3-781c42980063")
+		)
+		(instances
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 78.74)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ec9024a-ff02-4b5f-a03c-b52fddb67c21")
+		(property "Sheetname" "Sensor_Interfacing"
+			(at 177.8 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor_interfacing.kicad_sch"
+			(at 177.8 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 177.8 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27da08a2-cb1f-4669-8fcb-1dbe38c3b382")
+		)
+		(pin "SCL" input
+			(at 177.8 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d792405d-44cd-444a-87d4-a84c1c03ec64")
+		)
+		(instances
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 96.52)
+		(size 26.67 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58a600d6-fc19-4e0d-beb9-4eee34128a5c")
+		(property "Sheetname" "SD_Card_Reader"
+			(at 177.8 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_Card_Reader.kicad_sch"
+			(at 177.8 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CS" input
+			(at 177.8 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8076eae6-bb3b-4d0c-b438-1c5e718ab982")
+		)
+		(pin "CLK" input
+			(at 177.8 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf81439a-c155-4abd-b9a9-9fe47cc281dd")
+		)
+		(pin "MOSI" input
+			(at 177.8 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2508e167-20a8-4086-aec1-a846c05c08b6")
+		)
+		(pin "MISO" input
+			(at 177.8 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1451b2b1-b97b-48e2-ab75-f7c1dea01cbd")
+		)
+		(pin "CD" input
+			(at 177.8 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a7b8880-761e-4de9-8fc7-bf8c5313850c")
+		)
+		(instances
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 87.63)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9310bcc6-49ea-4330-99da-79bd41bf858c")
+		(property "Sheetname" "Power_Interface"
+			(at 82.55 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Interface.kicad_sch"
+			(at 82.55 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 82.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VBAT" input
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04c9bf45-a522-4643-a7c8-1ce25eb2e26c")
+		)
+		(pin "PWM_HEATER" input
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4e3363c-da3a-4c74-9bc7-50f771c7219a")
+		)
+		(instances
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 85.09)
+		(size 24.13 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f949971b-4670-4d3c-889e-c2b74a43479a")
+		(property "Sheetname" "MCU"
+			(at 125.73 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 125.73 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBAT" input
+			(at 125.73 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52060345-9a2b-4db8-ac31-d0f5f673c521")
+		)
+		(pin "CS" input
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0310f768-e18f-4e57-a13e-a23cc1405dce")
+		)
+		(pin "CD" input
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "61dd3af4-a0c4-4475-adc0-9ec07301b45d")
+		)
+		(pin "SCL" input
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92c1635d-84ac-45fe-87a2-695a634e52d8")
+		)
+		(pin "MOSI" input
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4aabb315-356f-46c2-a641-7e5fb0f2650d")
+		)
+		(pin "CLK" input
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aeda48cf-94a8-47c0-bed9-24acb36896e9")
+		)
+		(pin "SDA" input
+			(at 149.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f378713d-2f02-4f7c-940a-39513553348a")
+		)
+		(pin "PWM_HEATER" input
+			(at 125.73 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36c7c80f-ce3f-49db-bdec-42fe00755956")
+		)
+		(pin "MISO" input
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3956ba7e-b68d-4456-a440-a1513ff9d794")
+		)
+		(pin "MFP" input
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4583d69b-bd22-4fab-9572-0441fbaefa92")
+		)
+		(instances
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
