@@ -1767,7 +1767,7 @@
 	(footprint "Capstone:CONN_S5B-PH-K-S_JST"
 		(layer "F.Cu")
 		(uuid "4c56ec61-7861-4d5e-a1ae-10e3ff3729fb")
-		(at 153.3313 75.175)
+		(at 159.640001 68.58)
 		(tags "S5B-PH-K-S ")
 		(property "Reference" "J3"
 			(at 4 0 0)
@@ -2058,7 +2058,7 @@
 	(footprint "Package_DIP:DIP-28_W7.62mm"
 		(layer "F.Cu")
 		(uuid "561b1174-3570-44ad-b7e1-8c7f85b9ae41")
-		(at 177.038 44.958)
+		(at 172.72 45.72)
 		(descr "28-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U3"
@@ -2612,7 +2612,7 @@
 	(footprint "Capstone:CUI_MSD-4-A"
 		(layer "F.Cu")
 		(uuid "58868314-c2b2-490c-a61d-68f3087c1a20")
-		(at 119.792 99.83 -90)
+		(at 147.32 129.54 -90)
 		(property "Reference" "J2"
 			(at -4.325 -11.135 90)
 			(layer "F.SilkS")
@@ -3141,9 +3141,9 @@
 	(footprint "Capstone:Cylindrical Can, Radial"
 		(layer "F.Cu")
 		(uuid "70570564-2b45-4306-83fb-f7bb03611723")
-		(at 161.637 64.3004)
+		(at 151.13 58.42)
 		(property "Reference" "Y2"
-			(at 0 -0.5 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a26b0070-c45e-413e-aa92-8a2254422a2c")
@@ -4075,7 +4075,7 @@
 	(footprint "Capstone:XTAL_PS1240P02BT_TDK"
 		(layer "F.Cu")
 		(uuid "8dfb432a-75b6-4a7e-92e9-baa7af822267")
-		(at 184.738 95.25)
+		(at 193.12 86.36)
 		(tags "PS1240P02BT ")
 		(property "Reference" "XTAL1"
 			(at 2.5 0 0)
@@ -4322,7 +4322,7 @@
 	(footprint "Capstone:CONN_S4B-PH-K-S_JST"
 		(layer "F.Cu")
 		(uuid "94abf41b-4fca-4940-8764-5284542e4e78")
-		(at 180.222901 145.3026)
+		(at 173.260001 127)
 		(tags "S4B-PH-K-SLFSN ")
 		(property "Reference" "J9"
 			(at 2.999999 0 0)
@@ -4815,7 +4815,7 @@
 	(footprint "Capstone:PDIP8_300MC_MCH"
 		(layer "F.Cu")
 		(uuid "a95096d6-754d-4500-9a07-b7a032acf66d")
-		(at 149.9145 57.1252)
+		(at 157.48 50.8)
 		(tags "MCP7940M-I/P ")
 		(property "Reference" "U4"
 			(at 3.81 3.81 0)
@@ -5632,7 +5632,7 @@
 	(footprint "Connector_RJ:RJ9_Evercom_5301-440xxx_Horizontal"
 		(layer "F.Cu")
 		(uuid "b1aaef86-81ea-454e-b395-0944d406baac")
-		(at 122.428 139.7 -90)
+		(at 122.09 120.08 -90)
 		(descr "Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf")
 		(tags "RJ9 Connector tab down")
 		(property "Reference" "J10"
@@ -6358,7 +6358,7 @@
 	(footprint "Capstone:CONN_S4B-PH-K-S_JST"
 		(layer "F.Cu")
 		(uuid "bca8ebe7-86b8-4008-90a9-fe597a022010")
-		(at 141.360901 155.4626)
+		(at 174.340002 139.7)
 		(tags "S4B-PH-K-SLFSN ")
 		(property "Reference" "J8"
 			(at 2.999999 0 0)
@@ -6638,7 +6638,7 @@
 	(footprint "Capstone:N16"
 		(layer "F.Cu")
 		(uuid "beb9fa03-5186-4c75-8431-dffbd6616597")
-		(at 147.32 113.538)
+		(at 137.16 114.3)
 		(tags "CD74HC4050E ")
 		(property "Reference" "U6"
 			(at -3.81 -8.89 0)
@@ -8271,7 +8271,7 @@
 	(footprint "RF_Module:ESP32-WROOM-32U"
 		(layer "F.Cu")
 		(uuid "e3dcac39-8c2b-4ed1-9726-b1777983543d")
-		(at 121.724 122.328 90)
+		(at 132.89 53.975 90)
 		(descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip with U.FL connector, https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf")
 		(tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
 		(property "Reference" "U1"
@@ -9336,7 +9336,7 @@
 	(footprint "Capstone:N14"
 		(layer "F.Cu")
 		(uuid "fac451f3-2b78-4714-bce9-a30ce975199a")
-		(at 159.258 132.588)
+		(at 160.02 111.76)
 		(tags "SN74HC08N ")
 		(property "Reference" "U7"
 			(at -3.81 -7.62 0)
