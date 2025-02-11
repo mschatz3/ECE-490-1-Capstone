@@ -28,16 +28,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 177.8 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0875bfa9-ca71-4830-9910-390e20008bb7")
-	)
-	(wire
-		(pts
 			(xy 167.64 71.12) (xy 177.8 71.12)
 		)
 		(stroke
@@ -45,16 +35,6 @@
 			(type default)
 		)
 		(uuid "32eb6a63-540a-4763-90c7-491fd739709d")
-	)
-	(wire
-		(pts
-			(xy 149.86 104.14) (xy 177.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e4a84d-2123-48b7-8d36-38a6550ac2ec")
 	)
 	(wire
 		(pts
@@ -138,16 +118,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a646a317-f223-4240-9f93-3914ed210bd9")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 177.8 83.82)
 		)
 		(stroke
@@ -185,26 +155,6 @@
 			(type default)
 		)
 		(uuid "d9800b8c-b640-4cf3-93a8-9816d44d5f4d")
-	)
-	(wire
-		(pts
-			(xy 149.86 99.06) (xy 177.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ad504f-f41a-4a2c-bd18-250d08d3fccf")
-	)
-	(wire
-		(pts
-			(xy 149.86 106.68) (xy 177.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed80e751-69ad-404e-a683-f77985be74e2")
 	)
 	(wire
 		(pts
@@ -353,103 +303,6 @@
 		)
 	)
 	(sheet
-		(at 177.8 96.52)
-		(size 26.67 15.24)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "58a600d6-fc19-4e0d-beb9-4eee34128a5c")
-		(property "Sheetname" "SD_Card_Reader"
-			(at 177.8 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SD_Card_Reader.kicad_sch"
-			(at 177.8 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "CS" input
-			(at 177.8 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8076eae6-bb3b-4d0c-b438-1c5e718ab982")
-		)
-		(pin "CLK" input
-			(at 177.8 109.22 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bf81439a-c155-4abd-b9a9-9fe47cc281dd")
-		)
-		(pin "MOSI" input
-			(at 177.8 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2508e167-20a8-4086-aec1-a846c05c08b6")
-		)
-		(pin "MISO" input
-			(at 177.8 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1451b2b1-b97b-48e2-ab75-f7c1dea01cbd")
-		)
-		(pin "CD" input
-			(at 177.8 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0a7b8880-761e-4de9-8fc7-bf8c5313850c")
-		)
-		(instances
-			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 82.55 87.63)
 		(size 29.21 11.43)
 		(fields_autoplaced yes)
@@ -556,26 +409,6 @@
 			)
 			(uuid "52060345-9a2b-4db8-ac31-d0f5f673c521")
 		)
-		(pin "CS" input
-			(at 149.86 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0310f768-e18f-4e57-a13e-a23cc1405dce")
-		)
-		(pin "CD" input
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "61dd3af4-a0c4-4475-adc0-9ec07301b45d")
-		)
 		(pin "SCL" input
 			(at 149.86 91.44 0)
 			(effects
@@ -585,26 +418,6 @@
 				(justify right)
 			)
 			(uuid "92c1635d-84ac-45fe-87a2-695a634e52d8")
-		)
-		(pin "MOSI" input
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4aabb315-356f-46c2-a641-7e5fb0f2650d")
-		)
-		(pin "CLK" input
-			(at 149.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "aeda48cf-94a8-47c0-bed9-24acb36896e9")
 		)
 		(pin "SDA" input
 			(at 149.86 93.98 0)
@@ -625,16 +438,6 @@
 				(justify left)
 			)
 			(uuid "36c7c80f-ce3f-49db-bdec-42fe00755956")
-		)
-		(pin "MISO" input
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3956ba7e-b68d-4456-a440-a1513ff9d794")
 		)
 		(pin "MFP" input
 			(at 149.86 88.9 0)

@@ -1365,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 58.42) (xy 121.92 58.42)
+			(xy 101.6 58.42) (xy 121.92 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 104.14 58.42 180)
+		(at 101.6 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1719,7 +1719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c22421-71ec-4303-9cd8-58e902e09d25")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -1765,57 +1765,57 @@
 			)
 		)
 		(pin "14"
-			(uuid "2f976e09-d015-441d-ae79-d7ff6283fb06")
+			(uuid "760ba5f6-2da5-4b37-8bad-620c53f12972")
 		)
 		(pin "4"
-			(uuid "fd414fb4-0c18-4745-83a5-8ca65b2e5ebf")
+			(uuid "299334d7-422d-4f45-94d5-68ea67edea81")
 		)
 		(pin "5"
-			(uuid "69c2d32d-ecd2-4017-9126-2cc81f186966")
+			(uuid "defade81-ab3c-40ba-8858-3b7728a2a6b9")
 		)
 		(pin "10"
-			(uuid "c30188d9-12a0-4894-9ea0-62e644646c64")
+			(uuid "c033e801-c021-43ca-ad92-65b8a8da0d49")
 		)
 		(pin "1"
-			(uuid "d8749245-cd5b-49e0-95e0-a6afae838c1b")
+			(uuid "b82e1544-785d-4f75-a888-b122a912bae2")
 		)
 		(pin "3"
-			(uuid "42a84554-fecb-40ec-8fc0-db64370a6059")
+			(uuid "d1151521-2973-4799-8b73-a473ea1f8d31")
 		)
 		(pin "16"
-			(uuid "e656049d-c85b-4bd8-a783-aa8b11ba28c6")
+			(uuid "d16eba47-5719-4e6c-a44f-ace3ba7172b5")
 		)
 		(pin "13"
-			(uuid "ad8000eb-12a0-4560-b883-099591e2590c")
+			(uuid "32c318d8-9b62-4fc4-8e6e-86d25d83c1a9")
 		)
 		(pin "15"
-			(uuid "64954f72-664d-44b0-ab9b-1f2764077738")
+			(uuid "d2144396-d092-4c47-b108-94dc13c7a333")
 		)
 		(pin "2"
-			(uuid "caa8f2bc-c120-4989-8857-9025a3c795fc")
+			(uuid "76385f17-aedf-40f8-ad2a-743949281c86")
 		)
 		(pin "8"
-			(uuid "6f4dc71b-9b7a-4885-a788-15a2a6616b6a")
+			(uuid "c0e95740-4c9a-4d2c-9279-a0cbb784898f")
 		)
 		(pin "6"
-			(uuid "acf1cce1-6062-4baf-9af3-bf32b90f7714")
+			(uuid "90127ed3-0ca5-4fec-b002-68d2004204cc")
 		)
 		(pin "9"
-			(uuid "2457c78e-5c4b-4aa2-b8a8-c6d6ad91b454")
+			(uuid "6eb5737c-bf6c-45c9-9e1d-4571c9c738ef")
 		)
 		(pin "7"
-			(uuid "286a0900-3927-4e8b-bd9e-9fd60634eb83")
+			(uuid "52874d21-e97e-46d9-a942-0f91c40d3b14")
 		)
 		(pin "12"
-			(uuid "61999b00-6f25-48d5-9673-b7c3f5c1bb8c")
+			(uuid "d4e1ea14-4152-4626-a7f1-650b298c2b91")
 		)
 		(pin "11"
-			(uuid "1b3e99c4-fb22-4d7c-9b0f-573897a1cf1b")
+			(uuid "d453022f-544b-4a3f-9696-ebbc360e2f75")
 		)
 		(instances
-			(project ""
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "U6")
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1831,7 +1831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e9277c3-c1a0-4d13-9684-7d93e59c32d9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR036"
 			(at 120.65 81.28 0)
 			(effects
 				(font
@@ -1876,12 +1876,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "51b988cb-1562-4f09-915d-0232941b457f")
+			(uuid "97317716-98a0-4ff7-9d2e-f4cfc7ffeaee")
 		)
 		(instances
-			(project ""
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR016")
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1897,7 +1897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eee2d20-744e-44fa-bf67-ed2d0f1064f9")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 109.22 102.87 0)
 			(effects
 				(font
@@ -1942,12 +1942,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "30fab08d-deec-409c-96e6-5ca4b59dbfbe")
+			(uuid "86aee560-964a-4121-a57f-fa52d0309cf2")
 		)
 		(instances
 			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR023")
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1963,7 +1963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b7367c7-b5c9-4226-ad79-a7fdbdb2c0ea")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR037"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -2008,12 +2008,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "50f2d203-11f5-4c89-b280-aa87aeb781d0")
+			(uuid "02ff2eae-32a1-41d6-aed4-06088d222f34")
 		)
 		(instances
 			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR022")
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2029,7 +2029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46e6186c-127d-4d6b-b248-ffd3d01e67fb")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 111.76 38.0999 0)
 			(effects
 				(font
@@ -2075,15 +2075,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "73a7f9c4-c559-430b-825b-23e3538e61b2")
+			(uuid "5f3f53df-cb1d-45f5-88d6-e6463697f4bf")
 		)
 		(pin "2"
-			(uuid "1c468cc5-3aea-4290-9de0-ee10b43ab86c")
+			(uuid "9c91ec87-f710-4bfb-9df2-311e9e6f3a5f")
 		)
 		(instances
 			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "C3")
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2099,7 +2099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f63204-4133-4694-b966-2b7b29eee846")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR048"
 			(at 180.34 80.01 0)
 			(effects
 				(font
@@ -2144,12 +2144,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2b0d1fd-b1f6-491a-8e2c-cf431b7a2494")
+			(uuid "ab462166-7052-479e-8d00-771af962a104")
 		)
 		(instances
-			(project ""
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR018")
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2165,7 +2165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a4713f-a522-4658-8b4d-fd22866c8a41")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR030"
 			(at 115.57 50.8 0)
 			(effects
 				(font
@@ -2210,12 +2210,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea8488d4-9954-43ae-af51-44456d0bca4a")
+			(uuid "5105de9d-5446-40a1-aec4-3ee210f91d50")
 		)
 		(instances
 			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR019")
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c7ffaf3-b54a-4ae2-9fc5-d91c6f0165a2")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 116.84 92.71 90)
 			(effects
 				(font
@@ -2277,15 +2277,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "659e423d-5390-4a5d-b775-6f28a0d46258")
+			(uuid "ae5b6133-da09-46e5-9768-f423068cddf8")
 		)
 		(pin "2"
-			(uuid "e40dfca5-f5bf-431a-b562-2c7a9654c33e")
+			(uuid "cfd663ad-5450-4b07-93c5-a8987f877716")
 		)
 		(instances
 			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "C5")
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f995f8b-3b15-4a62-a96e-a4ac8ba07e3b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR035"
 			(at 120.65 34.29 0)
 			(effects
 				(font
@@ -2346,12 +2346,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b42ac82e-971e-4dff-a0cd-6333f041402b")
+			(uuid "bf0ed45c-1c75-4cc7-aa01-106448b7336f")
 		)
 		(instances
-			(project ""
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR06")
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2367,7 +2367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa64dfc7-ddd2-4834-a28a-d355ab2195cd")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 163.83 116.8399 0)
 			(effects
 				(font
@@ -2454,48 +2454,48 @@
 			)
 		)
 		(pin "7"
-			(uuid "807e4e84-e4cc-4a37-9724-c4e5a9c90536")
+			(uuid "54e60381-1651-43b7-98d4-bf4f1312db81")
 		)
 		(pin "CD"
-			(uuid "6328e4c8-663a-42a2-8644-bcf975e72445")
+			(uuid "73d8456d-9209-4559-aaed-b7817b1bbef2")
 		)
 		(pin "G4"
-			(uuid "30d1ff77-0987-4d08-afaa-a282bf209972")
+			(uuid "9b1d6146-cc59-4db5-b002-588f6cfb06db")
 		)
 		(pin "G1"
-			(uuid "f065fdc3-5bdc-49a3-8ddb-63c03e43e7be")
+			(uuid "4d906f21-1e06-4f1b-94b7-2b355ec08462")
 		)
 		(pin "G3"
-			(uuid "b933b1fc-cb9d-4146-9a7c-18db39a74194")
+			(uuid "bf86f668-0d73-4fe4-8c94-a99aa4aa296c")
 		)
 		(pin "5"
-			(uuid "57497545-2edd-4b3c-8bfd-98519695ec18")
+			(uuid "f2febabf-5943-497b-bf23-bde59d96683e")
 		)
 		(pin "3"
-			(uuid "464060ed-677a-4774-83bb-283599d72c7e")
+			(uuid "a5a6f1ec-4f43-4714-abac-6ff480a79fde")
 		)
 		(pin "6"
-			(uuid "341c2af5-7671-499e-872e-cdb06261b97e")
+			(uuid "aa8af356-51ee-49cb-8489-aa3d9f15fefe")
 		)
 		(pin "G2"
-			(uuid "ba1512c1-ce1c-415d-ad98-9e8e5a433eba")
+			(uuid "fdbe2856-5d54-44d0-b5a5-b11f6d659b85")
 		)
 		(pin "1"
-			(uuid "58a6010b-5f52-4a98-a1e5-e40ff2adb5c7")
+			(uuid "05289778-782b-4dbe-82f8-b57995ddc0cf")
 		)
 		(pin "4"
-			(uuid "f80ad800-500b-43cd-84fd-3763f8cd9644")
+			(uuid "c75b908b-c14b-412b-8508-296f4ca2a7fb")
 		)
 		(pin "8"
-			(uuid "a9e28425-954e-4b10-ad94-c49e94ce875c")
+			(uuid "4eff7da3-8e83-4b9c-8022-b288dde8d3cb")
 		)
 		(pin "2"
-			(uuid "9bc9c148-ed1e-454b-bee1-bfbd753fb4b9")
+			(uuid "70077440-00cc-4f4c-8214-eb8872287544")
 		)
 		(instances
-			(project ""
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "J2")
+			(project "Capstone_DataLogger"
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d62c64f1-3e05-4dca-8ff6-739ff56c4f0d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR047"
 			(at 134.62 148.59 0)
 			(effects
 				(font
@@ -2556,12 +2556,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e36c98f-1a74-42b0-851b-9920b8d8d527")
+			(uuid "1f642451-660a-4d5a-8500-1683b09e7823")
 		)
 		(instances
 			(project "Capstone_DataLogger"
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/58a600d6-fc19-4e0d-beb9-4eee34128a5c"
-					(reference "#PWR021")
+				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/9d44e97c-4d33-4cd2-a39b-04decca1d344"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
