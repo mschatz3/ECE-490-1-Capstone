@@ -1773,12 +1773,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_CTRL"
-			(at 142.24 125.73 0)
+		(property "Value" "+5V"
+			(at 144.78 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2208,12 +2209,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_CTRL"
-			(at 142.24 64.77 0)
+		(property "Value" "+5V"
+			(at 144.78 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2274,12 +2276,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_CTRL"
-			(at 142.24 31.75 0)
+		(property "Value" "+5V"
+			(at 144.78 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2472,12 +2475,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_CTRL"
-			(at 142.24 96.52 0)
+		(property "Value" "+5V"
+			(at 144.78 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

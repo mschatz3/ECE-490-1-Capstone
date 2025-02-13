@@ -455,127 +455,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -793,17 +672,9 @@
 			)
 		)
 	)
-	(junction
+	(no_connect
 		(at 186.69 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55a0cc9e-c886-4614-a66f-b711f97bff3d")
-	)
-	(junction
-		(at 179.07 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0509fc6-7390-44a0-a70f-a405421a4e08")
+		(uuid "6b906e97-595f-45f6-8a59-19b1a3b0f761")
 	)
 	(wire
 		(pts
@@ -827,16 +698,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 194.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de2a99a-43f2-4906-8243-6b708c8e5131")
-	)
-	(wire
-		(pts
 			(xy 172.72 86.36) (xy 194.31 86.36)
 		)
 		(stroke
@@ -844,16 +705,6 @@
 			(type default)
 		)
 		(uuid "12558ad7-bbbd-4f9f-aa86-aeb4c336f337")
-	)
-	(wire
-		(pts
-			(xy 186.69 80.01) (xy 186.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3ff257-1c70-479a-9903-084c8dd3a082")
 	)
 	(wire
 		(pts
@@ -897,26 +748,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 72.39) (xy 179.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c7451d-3e21-4b48-b53d-ca2134bb08e0")
-	)
-	(wire
-		(pts
-			(xy 97.79 83.82) (xy 97.79 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df1304d-d397-49b2-ab99-647065056db7")
-	)
-	(wire
-		(pts
 			(xy 97.79 85.09) (xy 110.49 85.09)
 		)
 		(stroke
@@ -927,27 +758,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 76.2) (xy 97.79 74.93)
+			(xy 97.79 83.82) (xy 97.79 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eb7ed84-4ea2-4844-90e5-b1027c27f106")
+		(uuid "a001c2c6-5d6b-471c-aaad-40cbb96d1f00")
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 179.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ee4d724-8466-4522-b9bf-848dbe5e85f3")
-	)
-	(wire
-		(pts
-			(xy 179.07 69.85) (xy 179.07 72.39)
+			(xy 179.07 69.85) (xy 179.07 78.74)
 		)
 		(stroke
 			(width 0)
@@ -974,6 +795,16 @@
 			(type default)
 		)
 		(uuid "c67b7a21-2d03-41ec-939a-850a0d636b9b")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 97.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29a5698-7475-4348-a92e-ddf0ed00903c")
 	)
 	(wire
 		(pts
@@ -1018,18 +849,6 @@
 			(justify left)
 		)
 		(uuid "52abc504-7d76-4fd7-9ab5-d390a5508fcf")
-	)
-	(hierarchical_label "MFP"
-		(shape input)
-		(at 194.31 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "607cd07d-f658-4df9-b937-63c6645a11dc")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1092,76 +911,6 @@
 			(project "Capstone_DataLogger"
 				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/0affded7-eae9-4d34-9de7-008cd2663c25"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2258110f-cb71-4ab9-bd96-f37494cd58ce")
-		(property "Reference" "R1"
-			(at 189.23 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 189.23 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 184.912 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d731c88-db0e-4df6-959a-861ac86afb2b")
-		)
-		(pin "1"
-			(uuid "71473a11-489d-469d-ae4f-13c95710e8c1")
-		)
-		(instances
-			(project ""
-				(path "/3b56a84b-c06c-4c22-a01a-903db63bf091/0affded7-eae9-4d34-9de7-008cd2663c25"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1258,15 +1007,15 @@
 	(symbol
 		(lib_id "Device:Crystal")
 		(at 97.79 80.01 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8622f6a-8c27-41b8-8e60-e1e4cfb05bf5")
 		(property "Reference" "Y2"
-			(at 101.6 78.7399 90)
+			(at 101.6 81.2801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1024,7 @@
 			)
 		)
 		(property "Value" "32.768k"
-			(at 101.6 81.2799 90)
+			(at 101.6 78.7401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
