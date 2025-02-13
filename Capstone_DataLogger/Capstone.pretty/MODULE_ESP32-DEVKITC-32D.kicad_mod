@@ -546,4 +546,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "2ebb7b6d-d8f8-4ef2-8abf-dd9fb847d79d")
 	)
+	(model "C:/Users/mpsch/Downloads/ESP32_DEVKITC_32D/ESP32-DEVKITC-32D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

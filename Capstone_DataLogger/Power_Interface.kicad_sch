@@ -1237,7 +1237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capstone:CONN_S5B-PH-K-S_JST"
+		(property "Footprint" "Capstone:CONN_B5B-XH-A_JST"
 			(at 109.22 91.44 0)
 			(effects
 				(font

@@ -761,6 +761,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a72ce3c-6d76-4f8c-bfbc-67c807b04ba3")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4adb1f-bdde-4fa5-85a6-23e14b13b442")
+	)
+	(wire
+		(pts
 			(xy 231.14 90.17) (xy 231.14 97.79)
 		)
 		(stroke
@@ -841,6 +861,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 86.36) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f417a4-1478-48df-8b28-125c61ea4a5b")
+	)
+	(wire
+		(pts
 			(xy 149.86 88.9) (xy 162.56 88.9)
 		)
 		(stroke
@@ -858,6 +888,26 @@
 			(type default)
 		)
 		(uuid "6a513b84-a3a1-4817-abe8-5463eb1c7e1e")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b64c833-e7a0-4cf2-bbee-d8063c296c89")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 149.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a6821c-11f3-4f7f-b433-3507e16815c7")
 	)
 	(wire
 		(pts
@@ -918,6 +968,16 @@
 			(type default)
 		)
 		(uuid "c456299e-bd9f-45d8-955e-8fadabd588d5")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16bf791-02b8-469c-8fbc-7928920868ae")
 	)
 	(wire
 		(pts
@@ -1015,7 +1075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capstone:CONN_S2B-PH-K-S_JST"
+		(property "Footprint" "Capstone:CONN_B2B-XH-A_JST"
 			(at 231.14 119.38 0)
 			(effects
 				(font
@@ -1219,7 +1279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capstone:CONN_S2B-PH-K-S_JST"
+		(property "Footprint" "Capstone:CONN_B2B-XH-A_JST"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -1403,7 +1463,7 @@
 	)
 	(sheet
 		(at 177.8 78.74)
-		(size 25.4 7.62)
+		(size 25.4 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1423,7 +1483,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensor_interfacing.kicad_sch"
-			(at 177.8 86.9446 0)
+			(at 177.8 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,6 +1510,26 @@
 				(justify left)
 			)
 			(uuid "d792405d-44cd-444a-87d4-a84c1c03ec64")
+		)
+		(pin "AD0" input
+			(at 177.8 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a9fbdc6-1d55-4315-8879-8a5d29c91512")
+		)
+		(pin "THERM" input
+			(at 177.8 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6f15cf8-ee79-44f8-8d27-ecc2dce51b12")
 		)
 		(instances
 			(project "Capstone_DataLogger"
@@ -1605,6 +1685,26 @@
 				(justify right)
 			)
 			(uuid "4583d69b-bd22-4fab-9572-0441fbaefa92")
+		)
+		(pin "VIBE_SENSE" input
+			(at 149.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54ec2419-6eba-45d0-b5be-78a6b390f0bb")
+		)
+		(pin "THERM" input
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35c34137-dc10-4128-8be6-2f20491fc35e")
 		)
 		(instances
 			(project "Capstone_DataLogger"

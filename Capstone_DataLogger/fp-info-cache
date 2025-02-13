@@ -1,4 +1,4 @@
-24204946245209355
+24211911413652496
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6447,6 +6447,27 @@ capacitor tantalum
 2
 2
 Capstone
+CONN_B2B-XH-A_JST
+
+B2B-XH-A 
+0
+2
+2
+Capstone
+CONN_B4B-XH-A_JST
+
+B4B-XH-A 
+0
+4
+4
+Capstone
+CONN_B5B-XH-A_JST
+
+B5B-XH-A 
+0
+5
+5
+Capstone
 CONN_S2B-PH-K-S_JST
 
 S2B-PH-K-SLFSN 
@@ -6509,6 +6530,13 @@ MCP7940M-I/P
 0
 8
 8
+Capstone
+RJ9
+
+
+0
+4
+4
 Capstone
 XTAL_PS1240P02BT_TDK
 

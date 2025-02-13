@@ -235,4 +235,15 @@
 		(remove_unused_layers no)
 		(uuid "9cda94b1-30bd-4e57-b9b1-f79819337f11")
 	)
+	(model "C:/Users/mpsch/Downloads/PS1240P02BT (1)/XTAL_PS1240P02BT_TDK.step"
+		(offset
+			(xyz 5 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
