@@ -113,9 +113,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "DataLogger_Gerber/")
 		)
 	)
 	(net 0 "")
@@ -11373,7 +11373,7 @@
 		(polygon
 			(pts
 				(xy 124.5 101.185) (xy 124.5 121.685) (xy 124.5 142.5) (xy 172.5 142.5) (xy 172.5 39) (xy 171 37.5)
-				(xy 144.5 37.5) (xy 144.5 37.5) (xy 124.5 37.5) (xy 124.5 94)
+				(xy 144.5 37.5) (xy 124.5 37.5) (xy 124.5 94)
 			)
 		)
 		(filled_polygon
