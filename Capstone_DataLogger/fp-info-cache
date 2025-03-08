@@ -1,4 +1,4 @@
-24211911413652496
+24213652713061191
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6537,6 +6537,13 @@ RJ9
 0
 4
 4
+Capstone
+TO-220AB_INF
+
+IRLZ34NPBF 
+0
+3
+3
 Capstone
 XTAL_PS1240P02BT_TDK
 
