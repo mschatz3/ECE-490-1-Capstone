@@ -440,8 +440,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Capstone"
+    ],
+    "pinned_symbol_libs": [
+      "Capstone",
+      "Capstone_2"
+    ]
   },
   "meta": {
     "filename": "PDU.kicad_pro",
@@ -482,7 +487,7 @@
       "plot": "PDU_GBR/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PDU.step",
       "svg": "",
       "vrml": ""
     },

@@ -14,39 +14,28 @@
 		(comment 4 "Damien Huskic")
 	)
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "Capstone:BatPack"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "M"
+				(at -4.318 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" ""
+				(at -3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Footprint" "Capstone:AA_Bat_Contact"
+				(at -3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Datasheet" ""
+				(at -3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -63,8 +52,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
+			(property "Description" ""
+				(at -3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -72,101 +61,83 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "BatPack_0_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -2.286 0.508)
+					(end 2.286 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.254)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 1.778 1.778)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+						(xy 1.27 2.286) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "BatPack_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -182,9 +153,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -199,12 +170,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "MT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
+	(no_connect
+		(at 167.64 97.79)
+		(uuid "6726b707-d97c-4d45-a7f2-136715d71ad8")
+	)
 	(wire
 		(pts
-			(xy 151.13 91.44) (xy 158.75 91.44)
+			(xy 160.02 101.6) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021cb222-993e-4e25-aaa3-db7990bc99af")
+	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -214,7 +217,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 158.75 88.9)
+			(xy 160.02 88.9) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6438df14-e4a1-413f-8bfb-5eefd6e02cf1")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 160.02 88.9)
 		)
 		(stroke
 			(width 0)
@@ -224,7 +237,7 @@
 	)
 	(hierarchical_label "VBATT-"
 		(shape input)
-		(at 151.13 91.44 180)
+		(at 151.13 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -247,35 +260,36 @@
 		(uuid "eee4e2cf-00c5-499d-a6a2-4c0ac9e2dcec")
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 163.83 88.9 0)
+		(lib_id "Capstone:BatPack")
+		(at 160.02 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be5dece6-ec5c-421a-aa92-d223fcb304ba")
-		(property "Reference" "J11"
-			(at 166.37 88.8999 0)
+		(uuid "10d89c80-8f74-473f-8a58-0d7bcb35e320")
+		(property "Reference" "M1"
+			(at 156.21 94.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 166.37 91.4399 0)
+		(property "Value" "~"
+			(at 156.21 96.5835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 88.9 0)
+		(property "Footprint" "Capstone:AA_Bat_Contact"
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,8 +297,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 163.83 88.9 0)
+		(property "Datasheet" ""
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,25 +306,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 88.9 0)
+		(property "Description" ""
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "64b409fe-672d-4c3a-aee4-2d0d8d70b4e4")
 		)
 		(pin "2"
-			(uuid "043fc359-3cac-47a4-bd82-30514f06ac8e")
+			(uuid "17e20639-d7ac-401f-b986-37b31013e77a")
+		)
+		(pin "1"
+			(uuid "ea0b0b67-0966-443f-ac69-be001978cfb0")
+		)
+		(pin "3"
+			(uuid "ecb5e864-c40a-484e-9967-faae58a69829")
 		)
 		(instances
 			(project ""
 				(path "/365e279d-a26e-42dd-bfe1-7a86883567c0/afd244f8-33c3-4733-97b0-c9d5fe47b0fd"
-					(reference "J11")
+					(reference "M1")
 					(unit 1)
 				)
 			)

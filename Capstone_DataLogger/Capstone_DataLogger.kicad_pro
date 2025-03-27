@@ -506,7 +506,7 @@
       "plot": "DataLogger_Gerber/",
       "pos_files": "",
       "specctra_dsn": "../../final_edit.dsn",
-      "step": "",
+      "step": "Capstone_DataLogger.step",
       "svg": "",
       "vrml": ""
     },
